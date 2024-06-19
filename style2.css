@@ -1,0 +1,228 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font-family for the entire page */
+body, html {
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Navbar styles */
+.nav {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 25px;
+    background-color: #c32626;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav .logo img {
+    width: 100px; /* Adjust the width to your logo's size */
+}
+
+.nav .links a {
+    color: #e0501b;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav .button a {
+    padding: 14px 20px 12px 20px;
+    background-color: #007bff;
+    border-radius: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* Landing section styles */
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10vw;
+    height: 10vh;
+}
+
+.landingText h1 {
+    font-size: 6vw;
+    margin: 0;
+    color: #000;
+}
+
+.landingText h3 {
+    margin: 5px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #777777;
+}
+
+.landingText .btn a {
+    font-size: 1.2vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+.landingImage img {
+    width: 28vw;
+}
+
+/* About section styles */
+.about {
+    height: 600px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutText h1 {
+    position: relative;
+    left: 110px;
+}
+
+.aboutText img {
+    width: 10vw;
+    position: absolute;
+    top: 50px;
+}
+
+.aboutList {
+    width: 50%;
+}
+
+ol {
+    list-style: none;
+    color: #e0501b;
+}
+
+ol li {
+    font-size: 34px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+li p {
+    font: 16px;
+    color: #000;
+    padding-left: 60px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+li span {
+    position: absolute;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+/* Info section styles */
+.infosection {
+    height: 600px;
+}
+
+.infoHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards .card {
+    position: relative;
+    height: 360px;
+    width: 360px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.9), 0 10px 10px rgba(0, 0, 0, 0.09);
+}
+
+/* Add styles for each info card (one, two, three) */
+
+/* Banner section styles */
+.banner {
+    height: 400px;
+    background-color: #2f8b;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.bannerText h1 {
+    font-size: 3vw;
+    color: #000;
+    font-weight: 600;
+}
+
+.bannerText img {
+    width: 10vw;
+    margin-right: 20px;
+}
+
+.bannerImg img {
+    width: 20vw;
+}
+
+/* Footer styles */
+.footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+}
+
+.footerlinks a {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.footerlinks .mainlink {
+    color: #e0501b;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 600px) {
+    /* Add responsive styles here for smaller screens */
+}

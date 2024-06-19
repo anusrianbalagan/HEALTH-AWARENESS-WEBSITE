@@ -1,0 +1,64 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Header styles */
+header {
+    background-color: #005c97;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.factors {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+p, ul, li {
+    line-height: 1.5;
+    color: #555;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Subpoint styles */
+ul ul {
+    list-style: circle;
+    margin-left: 30px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #005c97;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
